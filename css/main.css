@@ -1647,7 +1647,7 @@ pre .javascript .function {
 .site-author-image {
   border: 1px solid #eee;
 /*下面两行和头像旋转有关*/
-  border-radius: 50%; /*半径*/
+  border-radius: 100%; /*半径*/
   transition: 5s all; /*头像旋转的度数在几秒完成*/
   display: block;
   height: auto;
@@ -1684,7 +1684,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fff211;
+  background: #2babf1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
