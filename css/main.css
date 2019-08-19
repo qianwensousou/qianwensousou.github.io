@@ -1592,11 +1592,11 @@ pre .javascript .function {
 #qr p {
   text-align: center;
 }
-.post-body p a {
+.post-body a {
   color: #345; /*鼠标点击移动之前的颜色*/
   border-bottom: none;
 }
-.post-body p a:hover {
+.post-body a:hover {
   color: #f00; /*鼠标移动到链接上的颜色*/
 }
 .sidebar {
@@ -1691,7 +1691,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3bff61;
+  background: #ffff78;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
