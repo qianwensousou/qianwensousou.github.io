@@ -1646,11 +1646,17 @@ pre .javascript .function {
 }
 .site-author-image {
   border: 1px solid #eee;
+/*下面两行和头像旋转有关*/
+  border-radius: 50%;
+  transition: 2s all;
   display: block;
   height: auto;
   margin: 0 auto;
   max-width: 120px;
   padding: 2px;
+}
+.site-author-image:hover {
+  transform: rotate(360deg);
 }
 .site-author-name {
   color: #222;
@@ -1678,7 +1684,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff2;
+  background: #507929;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
