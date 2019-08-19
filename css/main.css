@@ -1594,10 +1594,9 @@ pre .javascript .function {
 }
 .post-body a {
   color: #345; /*鼠标点击移动之前的颜色*/
-  border-bottom: none;
 }
 .post-body a:hover {
-  color: #f00; /*鼠标移动到链接上的颜色*/
+  color: #800080; /*鼠标移动到链接上的颜色*/
 }
 .sidebar {
   background: #222;
@@ -1691,7 +1690,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffff78;
+  background: #ff2dac;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
