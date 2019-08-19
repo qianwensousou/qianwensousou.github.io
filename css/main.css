@@ -1656,7 +1656,7 @@ pre .javascript .function {
   padding: 2px;
 }
 .site-author-image:hover {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
 }
 .site-author-name {
   color: #222;
@@ -1684,7 +1684,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #507929;
+  background: #ff6090;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
